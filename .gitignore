@@ -1,0 +1,46 @@
+# Maven target directory
+/target/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# OS or user files
+*.swp
+*.swo
+*.bak
+
+# Java class files
+*.class
+
+# Reports (optional if generated dynamically)
+surefire-reports/
+test-output/
+
+# ChromeDriver, geckodriver if included in repo (recommend to use from PATH instead)
+chromedriver.exe
+geckodriver.exe
+
+# Environment or config files
+.env
+config.properties
